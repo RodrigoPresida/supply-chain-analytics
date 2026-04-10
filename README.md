@@ -1,6 +1,6 @@
 # Supply Chain Analytics — DataCo
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/status-concluído-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.12+-blue?logo=python)
 ![Plotly](https://img.shields.io/badge/Plotly-interativo-blueviolet?logo=plotly)
 
@@ -19,10 +19,11 @@ Análise de dados logísticos com o dataset **DataCo Smart Supply Chain**, cobri
 | `01_eda.ipynb` | Análise exploratória — shape, distribuições, missing values, perfil dos dados |
 | `02_kpis.ipynb` | KPIs de logística: OTIF, lead time médio, taxa de atraso por corte |
 | `03_dashboard.ipynb` | Dashboard interativo com Plotly: mapa global, rankings e sunburst |
+| `04_causas_atraso.ipynb` | Análise de causa raiz: prazo prometido, sazonalidade, heatmap modal × região, Random Forest |
 
 ## Stack
 
-- **Python 3.12** · Pandas · NumPy
+- **Python 3.12** · Pandas · NumPy · Scikit-learn
 - **Plotly** — visualizações interativas
 - **Jupyter Notebook**
 
